@@ -2,11 +2,11 @@ using System;
 
 class Aula11{
     static void Main(){
-int[] num=new int[3]{11,22,33};
+        int[] num=new int[5]{11,22,33,44,55};
 
-foreach(int n in num){
-    Console.WriteLine(n);
-}
+        foreach(int n in num){
+            Console.WriteLine(n);
+        }
 
     }
 }
